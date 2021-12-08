@@ -22,7 +22,7 @@
   },
   "engineStrict": true,
   "dependencies": {
-    "RNet-DataFactory": "git+ssh://git@github.com:FlexLabs/RNet-datafactory.git",
+    "RNet-DataFactory": "git+ssh://https://github.com/ReadOnlyNet/RNet-datafactory.git",
     "base62": "^1.1.2",
     "bluebird": "^3.4.1",
     "body-parser": "^1.15.2",

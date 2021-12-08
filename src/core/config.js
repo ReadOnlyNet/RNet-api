@@ -48,7 +48,7 @@ require('dotenv').config({ silent: true });
  */
 const config = {
 	name:      'RNet',
-	author:    'NoobLance™#3500',
+	author:    'ROM™™#3500',
 	version:   pkg.version,
 	lib:       'eris',
 	poweredBy: 'RNet',
@@ -65,7 +65,7 @@ const config = {
 	],
 	testGuilds: [
 		'155149443606380545',
-		'203039963636301824',
+		'538530739017220107',
 		'117093893345902593',
 		'213019300783587328',
 		'200167999267799040',
@@ -74,7 +74,7 @@ const config = {
 		'213000764048670722',
 	],
 	betaGuilds: [],
-	avatar: 'images/dyno-v2-300.jpg',
+	avatar: 'images/rnet-v2-300.jpg',
 };
 
 /**
@@ -124,7 +124,7 @@ config.client = {
 	id:     getenv('CLIENT_ID', ''),
 	secret: getenv('CLIENT_SECRET', ''),
 	token:  getenv('CLIENT_TOKEN', ''),
-	userid: getenv('CLIENT_USER_ID', '155149108183695360'),
+	userid: getenv('CLIENT_USER_ID', '550869101170655233'),
 	admin:  getenv('ADMIN_ID', ''),
 	cache: {
 		limit: getenv('CLIENT_CACHE_LIMIT', 60000),
@@ -144,7 +144,7 @@ config.client = {
  * }}
  */
 config.site = {
-	host:        getenv('SITE_HOST', 'http://localhost'),
+	host:        getenv('SITE_HOST', 'http://localhost.com'),
 	port:        getenv('SITE_PORT', 80),
 	listen_port: getenv('SITE_LISTEN_PORT', 9337),
 	secret:      getenv('SITE_SECRET', '229f38742e69c328ecff37e4db5c1c69'),
